@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: "gilory";
+  src: url("./gilroy/Gilroy-Regular.ttf")
+}
+
+* {
+  font-family: "gilory" !important;
+  letter-spacing: normal!important;
+  word-break: normal!important;
+}
+
+h1, h2{
+  font-size: 20px;
+}
+
+h3, h4{
+  font-size: 18px;
+}
+h5, h6{
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: 12px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+p, span, ul, li, a {
+  font-size: 16px;
+  color: #312517 !important;
+  line-height: 1.2rem;
+  margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2{
+    font-size: 20px;
+  }
+  h3, h4{
+    font-size: 18px;
+  }
+  h5, h6{
+    font-size: 16px;
+  }
+}
+
+:root {
+  // basic colors
+  --white: #FFF;
+  --black: #000;
+  --main_gray: #222;
+  --background: #F8F4F1;
+
+  // brand colors
+  --primary: #445656;
+  --primary_promotion: #C48F5A;
+  --secondary: #312517;
+}
