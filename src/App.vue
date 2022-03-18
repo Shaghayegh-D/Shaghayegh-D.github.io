@@ -108,9 +108,8 @@ export default {
 
 .body {
   background-color: var(--background);
-  padding: 30px;
-  background-image: url(~/src/assets/pattern.svg);
-  background-size: 100%;
+  background-image: url(~/src/assets/pattern-2.svg);
+  background-size: cover;
   margin: 0 auto;
   min-height: 100vh;
 }

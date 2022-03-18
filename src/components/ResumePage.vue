@@ -3,24 +3,22 @@
     <v-row class="pt-5">
       <v-col cols="12">
         <div class="text-center pb-10">
-          <v-divider></v-divider>
-          <div class="py-4">FRONT-END DEVELOPER / PRODUCT DESIGNER</div>
-          <v-divider></v-divider>
+          <div class="bordered-div py-4">FRONT-END DEVELOPER / PRODUCT DESIGNER</div>
         </div>
         <v-row>
           <v-col cols="12">
-            <p class="section-title" style="padding-left: 46px">
-              Work Experience
+            <p class="section-title">
+              Experience
             </p>
             <img
               src="@/assets/icons/line-2.svg"
               height="2px"
-              width="200px"
+              width="180px"
               class="mb-4 mt-2"
               alt="line"
             />
             <v-row>
-              <v-col cols="10" offset="1">
+              <v-col cols="12" md="10" offset-md="1">
                 <div class="pb-2">
                   <h5 class="d-flex">
                     <img
@@ -40,12 +38,20 @@
                       Vuetify , Nuxt.js, Axios:
                     </p>
                     <p>
-                      • Car insurance services is the most important service
-                      provided by iToll.
+                      • Refactored car insurance pages for better performance.
+                      <a
+                        href="https://itoll.ir/query/insurance/car/step/1"
+                        target="_blank"
+                        >(car insurance)
+                      </a>
                     </p>
                     <p>
-                      • Designed and developed a platform to sell and buy used
-                      cars. (deals)
+                      • Fully redesigned insurance companies list and added sorting for better search.
+                      <a
+                        href="https://itoll.ir/insurance/passive/renew/car/*/*/eyJpdiI6IlJnbFJMa2I2ZTI3Q0VCbHhmUWJBMkE9PSIsInZhbHVlIjoiTnNiTXVvRGRMaUozZ3VoZ2hYV05OZz09IiwibWFjIjoiNGMwMDk5NDczYjllMjM0NGUyNjYyYmY4NDBmNDk4Nzk3YzlkZDJhZDkxMWM4MGQ0MDU4ZjUzOTZiM2NhMGEyNSJ9?insurancePath=undefined&step=2"
+                        target="_blank"
+                        >(insurance companies list)
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -166,16 +172,16 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <p class="section-title" style="padding-left: 156px">Skills</p>
+            <p class="section-title">Skills</p>
             <img
               src="@/assets/icons/line-2.svg"
               height="2px"
-              width="200px"
+              width="180px"
               class="mb-4 mt-2"
               alt="line"
             />
             <v-row>
-              <v-col cols="10" offset="1">
+              <v-col  cols="12" md="10" offset-md="1">
                 <v-row>
                   <v-col cols="12" sm="6">
                     <div class="pb-2">
@@ -281,16 +287,16 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <p class="section-title" style="padding-left: 96px">Certificates</p>
+            <p class="section-title">Certificates</p>
             <img
               src="@/assets/icons/line-2.svg"
               height="2px"
-              width="200px"
+              width="180px"
               class="mb-4 mt-2"
               alt="line"
             />
             <v-row>
-              <v-col cols="10" offset="1">
+              <v-col  cols="12" md="10" offset-md="1">
                 <v-row>
                   <v-col cols="12" sm="6">
                     <div class="pb-2">
@@ -374,7 +380,6 @@ a {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: -4px !important;
-  padding-left: 86px;
 }
 
 .job-title {
@@ -385,5 +390,10 @@ a {
 
 .costum-line-hight{
   line-height: 24px;
+}
+
+.bordered-div{
+  border-top: 1px solid #c48f5a9f;
+  border-bottom: 1px solid #c48f5a9f;
 }
 </style>

@@ -21,8 +21,8 @@
               </span>
               <a href="mailto:davoodi.shaghayegh.98@gmail.com" class="align-self-center">
                 <img
-                  src="@/assets/icons/linkedin.svg"
-                  alt="linkedin"
+                  src="@/assets/icons/email.svg"
+                  alt="email"
                   width="18px"
                   class="socialmedia-icons"
                 />
@@ -33,7 +33,7 @@
                 <img src="@/assets/icons/line.svg" alt="line" width="1px" />
                 visit:
               </span>
-              <a href="https://www.linkedin.com/in/shaghayegh-davoodi/" class="align-self-center">
+              <a href="https://www.linkedin.com/in/shaghayegh-davoodi/" target="_blank" class="align-self-center">
                 <img
                   src="@/assets/icons/linkedin.svg"
                   alt="linkedin"
@@ -41,10 +41,18 @@
                   class="socialmedia-icons"
                 />
               </a>
-              <a href="https://dribbble.com/Shaghayegh-Davoodi" class="align-self-center">
+              <a href="https://dribbble.com/Shaghayegh-Davoodi" target="_blank" class="align-self-center">
                 <img
                   src="@/assets/icons/dribbble.svg"
                   alt="dribbble"
+                  width="18px"
+                  class="socialmedia-icons"
+                />
+              </a>
+              <a href="https://github.com/Shaghayegh-D" target="_blank" class="align-self-center">
+                <img
+                  src="@/assets/icons/github.svg"
+                  alt="github"
                   width="18px"
                   class="socialmedia-icons"
                 />
