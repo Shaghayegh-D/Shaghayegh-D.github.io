@@ -393,7 +393,7 @@ a {
 }
 
 .bordered-div{
-  border-top: 1px solid #c48f5a9f;
-  border-bottom: 1px solid #c48f5a9f;
+  border-top: 2px solid rgba(255, 255, 255, 0.9);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
 </style>

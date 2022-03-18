@@ -1,7 +1,6 @@
 <template>
   <v-container>
-    <v-divider></v-divider>
-    <div class="mt-4 mx-md-4">
+    <div class="bordered-div pt-3 mx-md-4">
       <v-row>
         <v-col
           cols="12"
@@ -83,5 +82,9 @@ export default {
 .socialmedia-icons {
   margin-right: 10px;
   margin-top: 2px;
+}
+
+.bordered-div{
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 </style>

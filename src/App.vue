@@ -52,12 +52,12 @@
                     transition="slide-x-reverse-transition"
                     id="tab-3"
                   >
-                    <resume-page />
+                    <projects-page />
                   </v-tab-item>
                 </v-tabs-items>
               </div>
             </v-col>
-            <v-col cols="12" md="4" offset-md="4" class="text-center">
+            <v-col cols="12" md="4" offset-md="4" class="py-0 text-center">
               <div>
                 <v-progress-linear
                   v-model="progressValue"
@@ -66,7 +66,7 @@
                   color="#C48F5A"
                 ></v-progress-linear>
                 <!-- <a class="effect effect-1" href="#tab-2">about me</a> -->
-                <a class="effect effect-1" href="#tab-2">résumé</a>
+                <a class="effect effect-1" href="#tab-2">see résumé</a>
                 <!-- <a class="effect effect-1" href="#tab-2">projects</a> -->
               </div>
             </v-col>
@@ -82,6 +82,7 @@
 import MainFooter from "./components/MainFooter";
 import AboutmePage from "./components/AboutmePage";
 import ResumePage from "./components/ResumePage";
+import ProjectsPage from "./components/ProjectsPage";
 
 export default {
   name: "App",
@@ -90,6 +91,7 @@ export default {
     MainFooter,
     AboutmePage,
     ResumePage,
+    ProjectsPage
   },
 
   data() {

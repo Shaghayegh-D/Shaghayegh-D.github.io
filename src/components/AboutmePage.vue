@@ -1,12 +1,12 @@
 <template>
   <div>
-    <v-row class="pt-5">
-      <v-col cols="12" sm="6" order="1" order-sm="0" class="align-center-div">
+    <v-row>
+      <v-col cols="12" sm="6" class="align-center-div">
         <div class="bordered-div">
           <span>HELLO!</span>
           <p class="name-title">I'm Shaghayegh Davoodi</p>
           <p>
-            I’m a self-motivated and creative Front-end developer/Product
+            Self-motivated and creative Front-end developer/Product
             designer. My favorite types of styles are minimal ,simple and
             user-friendly. My skill set lies in the intersection of elegant
             design ideas and implementing my thoughts.
@@ -19,8 +19,6 @@
       <v-col
         cols="12"
         sm="6"
-        order="0"
-        order-sm="1"
         class="text-center text-md-right"
       >
         <img
@@ -39,7 +37,7 @@
     height: auto;
   }
   .illustration {
-    width: 80% !important;
+    width: 70% !important;
     float: none !important;
     margin: 0 auto;
   }
@@ -52,10 +50,10 @@
 }
 
 .illustration {
-  width: 64%;
+  width: 80%;
   overflow: hidden;
   box-sizing: border-box;
-  opacity: 96%;
+  opacity: 86%;
 }
 
 .align-center-div {
@@ -65,7 +63,7 @@
 
 .bordered-div{
   border: 2px solid rgba(255, 255, 255, 0.9);
-  padding: 40px;
+  padding: 20px 40px;
   border-radius: 2px;
 }
 </style>
