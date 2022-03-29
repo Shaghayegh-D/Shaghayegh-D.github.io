@@ -1,15 +1,13 @@
 <template>
-  <div>
-    <v-row class="pt-5">
+  <div class="main-div pb-6">
+    <v-row c>
       <v-col cols="12">
         <div class="text-center pb-10">
-          <div class="bordered-div py-4">FRONT-END DEVELOPER / PRODUCT DESIGNER</div>
+          <div class="bordered-div py-4">FRONT-END DEVELOPER</div>
         </div>
-        <v-row>
+        <v-row class="px-2 px-md-10">
           <v-col cols="12">
-            <p class="section-title">
-              Experience
-            </p>
+            <p class="section-title">Experience</p>
             <img
               src="@/assets/icons/line-2.svg"
               height="2px"
@@ -20,22 +18,16 @@
             <v-row>
               <v-col cols="12" md="10" offset-md="1">
                 <div class="pb-2">
-                  <h5 class="d-flex">
-                    <img
-                      src="@/assets/icons/line.svg"
-                      alt="line"
-                      width="2px"
-                      class="align-self-center mr-2"
-                    />
-                    Principal Front-end Developer, Insurance Team @iToll,
+                  <h5>
+                    | Front-end Developer, Insurance Team @iToll,
                     <span class="job-title costum-line-hight">
                       December 2021 - Present (4 months)</span
                     >
                   </h5>
                   <div class="pl-5">
                     <p class="job-title">
-                      Tools & Technologies used: JavaScript, HTML, CSS, Vue.js,
-                      Vuetify , Nuxt.js, Axios:
+                      | Tools & Technologies used: JavaScript, HTML, CSS,
+                      Vue.js, Vuetify , Nuxt.js, Axios:
                     </p>
                     <p>
                       • Refactored car insurance pages for better performance.
@@ -46,7 +38,8 @@
                       </a>
                     </p>
                     <p>
-                      • Fully redesigned insurance companies list and added sorting for better search.
+                      • Fully redesigned insurance companies list and added
+                      sorting for better search.
                       <a
                         href="https://itoll.ir/insurance/passive/renew/car/*/*/eyJpdiI6IlJnbFJMa2I2ZTI3Q0VCbHhmUWJBMkE9PSIsInZhbHVlIjoiTnNiTXVvRGRMaUozZ3VoZ2hYV05OZz09IiwibWFjIjoiNGMwMDk5NDczYjllMjM0NGUyNjYyYmY4NDBmNDk4Nzk3YzlkZDJhZDkxMWM4MGQ0MDU4ZjUzOTZiM2NhMGEyNSJ9?insurancePath=undefined&step=2"
                         target="_blank"
@@ -56,17 +49,11 @@
                   </div>
                 </div>
                 <div class="pb-2">
-                  <h5 class="d-flex">
-                    <img
-                      src="@/assets/icons/line.svg"
-                      alt="line"
-                      width="2px"
-                      class="align-self-center mr-2"
-                    />
-                    Front-end Developer @iToll,
+                  <h5>
+                    | Front-end Developer @iToll,
                     <span class="job-title costum-line-hight">
                       October 2020 - December 2021 (1 year and 2 months)
-                      </span>
+                    </span>
                   </h5>
                   <div class="pl-5">
                     <p class="job-title">
@@ -136,15 +123,11 @@
                   </div>
                 </div>
                 <div class="pb-2">
-                  <h5 class="d-flex">
-                    <img
-                      src="@/assets/icons/line.svg"
-                      alt="line"
-                      width="2px"
-                      class="align-self-center mr-2"
-                    />
-                    Front-end Developer Full-time Intern @iToll,
-                    <span class="job-title costum-line-hight"> July 2020 - September 2020 (3 month)</span>
+                  <h5>
+                    | Front-end Developer Full-time Intern @iToll,
+                    <span class="job-title costum-line-hight">
+                      July 2020 - September 2020 (3 month)</span
+                    >
                   </h5>
                   <div class="pl-5">
                     <p class="job-title">
@@ -170,7 +153,7 @@
             </v-row>
           </v-col>
         </v-row>
-        <v-row>
+        <v-row class="px-2 px-md-10">
           <v-col cols="12">
             <p class="section-title">Skills</p>
             <img
@@ -181,19 +164,11 @@
               alt="line"
             />
             <v-row>
-              <v-col  cols="12" md="10" offset-md="1">
+              <v-col cols="12" md="10" offset-md="1">
                 <v-row>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="6" class="py-1">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Programming Languages & Tools:
-                      </h5>
+                      <h5>| Programming Languages & Tools:</h5>
                       <div class="pl-5">
                         <p>
                           <span class="font-weight-bold">Advanced:</span>
@@ -210,24 +185,18 @@
                         </p>
                       </div>
                     </div>
+                  </v-col>
+                  <v-col cols="12" sm="6" class="py-1">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Tools & Technologies:
-                      </h5>
+                      <h5>| Tools & Technologies:</h5>
                       <div class="pl-5">
                         <p>
                           <span class="font-weight-bold">Advanced:</span> Adobe
-                          Illustrator / Adobe Photoshop / Figma / Miro
+                          Illustrator / Adobe Photoshop / Figma
                         </p>
                         <p>
                           <span class="font-weight-bold">Intermediate:</span>
-                          Microsoft Office Suit
+                          Microsoft Office Suit / Miro
                         </p>
                         <p>
                           <span class="font-weight-bold">Familiar:</span>
@@ -236,17 +205,9 @@
                       </div>
                     </div>
                   </v-col>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="6" class="py-1">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Languages:
-                      </h5>
+                      <h5>| Languages:</h5>
                       <div class="pl-5">
                         <p>
                           <span class="font-weight-bold">Persian:</span> Native
@@ -260,18 +221,11 @@
                           Beginner
                         </p>
                       </div>
-                      <div class="pt-8"></div>
                     </div>
+                  </v-col>
+                  <v-col cols="12" sm="6" class="py-1">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Soft Skills:
-                      </h5>
+                      <h5>| Soft Skills:</h5>
                       <div class="pl-5">
                         <p>
                           Teamwork / Creativity / Time Management / Empathy /
@@ -285,7 +239,7 @@
             </v-row>
           </v-col>
         </v-row>
-        <v-row>
+        <v-row class="px-2 px-md-10">
           <v-col cols="12">
             <p class="section-title">Certificates</p>
             <img
@@ -296,62 +250,66 @@
               alt="line"
             />
             <v-row>
-              <v-col  cols="12" md="10" offset-md="1">
-                <v-row>
-                  <v-col cols="12" sm="6">
+              <v-col cols="12" md="10" offset-md="1">
+                <v-row class="pt-3">
+                  <v-col cols="12" sm="6" class="py-0">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Adobe Illustrator
+                      <h5 class="mb-0">
+                        | Adobe Illustrator
+                        <v-btn icon @click="illustratorDialog = true">
+                          <img
+                            src="@/assets/icons/magnifier.svg"
+                            alt="magnifier"
+                            width="20px"
+                          />
+                        </v-btn>
                       </h5>
                       <div class="pl-5">
                         <p>Northwest International University</p>
                       </div>
                     </div>
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Adobe Photoshop
+                      <h5 class="mb-0">
+                        | Adobe Photoshop
+                        <v-btn icon @click="photoshopDialog = true">
+                          <img
+                            src="@/assets/icons/magnifier.svg"
+                            alt="magnifier"
+                            width="20px"
+                          />
+                        </v-btn>
                       </h5>
                       <div class="pl-5">
                         <p>Northwest International University</p>
                       </div>
                     </div>
                   </v-col>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="6" class="py-0">
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Web Design
+                      <h5 class="mb-0">
+                        | Web Design
+                        <v-btn icon @click="webDialog = true">
+                          <img
+                            src="@/assets/icons/magnifier.svg"
+                            alt="magnifier"
+                            width="20px"
+                          />
+                        </v-btn>
                       </h5>
                       <div class="pl-5">
                         <p>Tehran Institute of Technology</p>
                       </div>
                     </div>
                     <div class="pb-2">
-                      <h5 class="d-flex">
-                        <img
-                          src="@/assets/icons/line.svg"
-                          alt="line"
-                          width="2px"
-                          class="align-self-center mr-2"
-                        />
-                        Basic Japanese Language
+                      <h5 class="mb-0">
+                        | Basic Japanese Language
+                        <v-btn icon @click="japaneseDialog = true">
+                          <img
+                            src="@/assets/icons/magnifier.svg"
+                            alt="magnifier"
+                            width="20px"
+                          />
+                        </v-btn>
                       </h5>
                       <div class="pl-5">
                         <p>University of Tehran</p>
@@ -365,20 +323,143 @@
         </v-row>
       </v-col>
     </v-row>
+    <v-dialog v-model="illustratorDialog" width="500">
+      <v-card>
+        <v-card-title>
+          <span>Certificate of Adobe Illustrator</span>
+          <v-spacer></v-spacer>
+          <v-btn icon small @click="illustratorDialog = false"
+            ><v-icon small>mdi-close</v-icon></v-btn
+          >
+        </v-card-title>
+        <v-divider></v-divider>
+
+        <v-card-text class="text-center pt-5">
+          <img
+            src="@/assets/certificate/illustrator.jpeg"
+            alt="illustrator"
+            width="100%"
+          />
+        </v-card-text>
+      </v-card>
+    </v-dialog>
+    <v-dialog v-model="photoshopDialog" width="500">
+      <v-card>
+        <v-card-title>
+          <span>Certificate of Adobe Photoshop</span>
+          <v-spacer></v-spacer>
+          <v-btn icon small @click="photoshopDialog = false"
+            ><v-icon small>mdi-close</v-icon></v-btn
+          >
+        </v-card-title>
+        <v-divider></v-divider>
+
+        <v-card-text class="text-center pt-5">
+          <img
+            src="@/assets/certificate/photoshop.jpeg"
+            alt="photoshop"
+            width="100%"
+          />
+        </v-card-text>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog v-model="webDialog" width="500">
+      <v-card>
+        <v-card-title>
+          <span>Certificate of Web Design</span>
+          <v-spacer></v-spacer>
+          <v-btn icon small @click="webDialog = false">
+            <v-icon small>mdi-close</v-icon>
+          </v-btn>
+        </v-card-title>
+        <v-divider></v-divider>
+
+        <v-card-text class="text-center pt-5">
+          <v-row>
+            <v-col cols="12">
+              <img
+                src="@/assets/certificate/web1.jpeg"
+                alt="illustrator"
+                width="100%"
+              />
+            </v-col>
+            <v-col cols="12">
+              <img
+                src="@/assets/certificate/web2.jpeg"
+                alt="illustrator"
+                width="100%"
+              />
+            </v-col>
+            <v-col cols="12">
+              <img
+                src="@/assets/certificate/web3.jpeg"
+                alt="illustrator"
+                width="100%"
+              />
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog v-model="japaneseDialog" width="500">
+      <v-card>
+        <v-card-title>
+          <span>Certificate of Japanese Language</span>
+          <v-spacer></v-spacer>
+          <v-btn icon small @click="japaneseDialog = false"
+            ><v-icon small>mdi-close</v-icon></v-btn
+          >
+        </v-card-title>
+        <v-divider></v-divider>
+
+        <v-card-text class="text-center pt-5">
+          <v-row>
+            <v-col cols="12" md="6">
+              <img
+                src="@/assets/certificate/japanese.jpeg"
+                alt="japanese"
+                width="100%"
+              />
+            </v-col>
+            <v-col cols="12" md="6">
+              <img
+                src="@/assets/certificate/japan.png"
+                alt="japanese"
+                width="100%"
+              />
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </v-dialog>
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      illustratorDialog: false,
+      photoshopDialog: false,
+      webDialog: false,
+      japaneseDialog: false,
+    };
+  },
+};
+</script>
+
 <style scoped lang="scss">
 a {
-  color: var(--primary) !important;
+  color: #74bb78 !important;
   font-weight: 600;
-  font-size: 12px !important;
+  font-size: 13px !important;
 }
 
 .section-title {
   color: var(--primary_promotion) !important;
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: -4px !important;
 }
 
@@ -386,13 +467,16 @@ a {
   color: var(--primary) !important;
   font-weight: normal;
   padding-left: 6px;
+  padding-top: 4px;
 }
 
-.costum-line-hight{
+.costum-line-hight {
   line-height: 24px;
 }
 
-.bordered-div{
+.bordered-div {
+  font-size: 22px;
+  color: var(--primary_promotion);
   border-top: 2px solid rgba(255, 255, 255, 0.9);
   border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }

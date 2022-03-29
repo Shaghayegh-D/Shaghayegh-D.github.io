@@ -14,15 +14,15 @@
                   class="mx-0"
                   grow
                 >
-                  <v-tab href="#tab-1" @click="progressValue = 33.33">
+                  <v-tab href="#tab-1" @click="progressValue = 33.33, this.$router.push({ path: '/about-me' })">
                     <span class="px-md-8 my-0 tab-titles" style="font-size:14px !important">about me</span>
                   </v-tab>
 
-                  <v-tab href="#tab-2" @click="progressValue = 66.66">
+                  <v-tab href="#tab-2" @click="progressValue = 66.66, this.$router.push({ path: '/resume' })">
                     <span class="px-md-8 my-0 tab-titles" style="font-size:14px !important">résumé</span>
                   </v-tab>
 
-                  <v-tab href="#tab-3" @click="progressValue = 100">
+                  <v-tab href="#tab-3" @click="progressValue = 100, this.$router.push({ path: '/projects' })">
                     <span class="px-md-8 my-0 tab-titles" style="font-size:14px !important">projects</span>
                   </v-tab>
                 </v-tabs>
@@ -31,7 +31,7 @@
               <div>
                 <v-tabs-items
                   v-model="tab"
-                  class="px-md-2 py-md-6 rounded"
+                  class="px-md-2 py-md-0 rounded"
                   style="background-color:transparent"
                 >
                   <v-tab-item
@@ -57,7 +57,7 @@
                 </v-tabs-items>
               </div>
             </v-col>
-            <v-col cols="12" md="4" offset-md="4" class="py-0 text-center">
+            <v-col cols="10" offset="1" md="4" offset-md="4" class="pb-4 text-center">
               <div>
                 <v-progress-linear
                   v-model="progressValue"
@@ -66,7 +66,7 @@
                   color="#C48F5A"
                 ></v-progress-linear>
                 <!-- <a class="effect effect-1" href="#tab-2">about me</a> -->
-                <a class="effect effect-1" href="#tab-2">see résumé</a>
+                <!-- <a class="effect effect-1" href="#tab-2">see résumé</a> -->
                 <!-- <a class="effect effect-1" href="#tab-2">projects</a> -->
               </div>
             </v-col>
@@ -110,8 +110,9 @@ export default {
 
 .body {
   background-color: var(--background);
-  background-image: url(~/src/assets/pattern-2.svg);
-  background-size: cover;
+  background-image: url(~/src/assets/pattern.svg), url(~/src/assets/pattern-2.svg);
+  background-position: top right, bottom left;
+  background-repeat: no-repeat;
   margin: 0 auto;
   min-height: 100vh;
 }

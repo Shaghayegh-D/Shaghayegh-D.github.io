@@ -2,17 +2,15 @@
   <div>
     <v-row>
       <v-col cols="12" sm="6" class="align-center-div">
-        <div class="bordered-div">
+        <div class="bordered-div px-10">
           <span>HELLO!</span>
           <p class="name-title">I'm Shaghayegh Davoodi</p>
           <p>
-            Self-motivated and creative Front-end developer/Product
-            designer. My favorite types of styles are minimal ,simple and
-            user-friendly. My skill set lies in the intersection of elegant
-            design ideas and implementing my thoughts.
-            <br>
-            Within the last two years, I
-            fully developed and redesigned projects for striving car service provider companies.
+            Self-motivated and creative Front-end Developer with a deep passion for Product
+            Design.
+            During my experience as a front-end developer, I was involved in designing web pages and landings as well,
+            I became more enthusiastic towards user experiences and their journeys.
+            My main intrest is designing and building minimal and User-centered marketing landings to promote products.
           </p>
         </div>
       </v-col>
@@ -37,20 +35,25 @@
     height: auto;
   }
   .illustration {
-    width: 70% !important;
+    width: 100% !important;
     float: none !important;
     margin: 0 auto;
   }
+
+  .bordered-div{
+    border: none !important;
+    padding: 16px !important;
+}
 }
 
 .name-title {
-  font-size: 26px;
+  font-size: 28px;
   color: var(--primary_promotion) !important;
   padding-top: 6px;
 }
 
 .illustration {
-  width: 80%;
+  width: 90%;
   overflow: hidden;
   box-sizing: border-box;
   opacity: 86%;
@@ -63,7 +66,7 @@
 
 .bordered-div{
   border: 2px solid rgba(255, 255, 255, 0.9);
-  padding: 20px 40px;
+  padding: 20px 0;
   border-radius: 2px;
 }
 </style>
