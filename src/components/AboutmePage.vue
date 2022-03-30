@@ -10,7 +10,7 @@
             Design.
             During my experience as a front-end developer, I was involved in designing web pages and landings as well,
             I became more enthusiastic towards user experiences and their journeys.
-            My main intrest is designing and building minimal and User-centered marketing landings to promote products.
+            My main interest is designing and building minimal and User-centered marketing landings to promote products.
           </p>
         </div>
       </v-col>
